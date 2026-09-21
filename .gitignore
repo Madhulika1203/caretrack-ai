@@ -1,0 +1,46 @@
+# JavaScript dependencies
+node_modules/
+
+# Python virtual environments and bytecode
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test, coverage, type-checking, and build output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage/
+build/
+dist/
+*.egg-info/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+backend/admindsk.json
+backend/serviceAccountKey.json
+serviceAccountKey.json
+*-firebase-adminsdk-*.json
+
+# Logs and runtime files
+*.log
+*.pid
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Local archives
+*.zip
